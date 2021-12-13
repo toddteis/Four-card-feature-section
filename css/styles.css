@@ -1,3 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+:root {
+    --red: #ea5353;
+    --cyan: #45d3d3;
+    --orange: #fcaf4a;
+    --blue: #549ef2;
+    --very-dark-blue: #4c4e61;
+    --grayish-blue: #a3a5ae;
+    --vary-light-gray: #fafafa;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
 
 
 /* FOOTER */
