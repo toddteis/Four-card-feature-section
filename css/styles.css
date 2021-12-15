@@ -23,6 +23,34 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.intro p {
+    font-weight: 200;
+}
+
+.card h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+}
 
 
 
