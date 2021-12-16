@@ -39,8 +39,25 @@ main {
     grid-template-rows: 150px 300px;
 }
 
+.intro {
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+
 .intro p {
+    font-size: 12px;
     font-weight: 200;
+}
+
+.card {
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    border-top: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 3px 20px 6px rgb(163, 165, 174, 0.2);
+    margin: 20px;
 }
 
 .card h3 {
