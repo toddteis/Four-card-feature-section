@@ -35,22 +35,18 @@ h2 {
 
 main {
     display: grid;
-    grid-template-columns: auto 350px auto;
+    grid-template-columns: auto 290px auto;
     grid-template-rows: 150px 300px;
 }
 
-.intro {
-
-}
-
-.intro p {
+.card-intro p {
     font-size: 12px;
     font-weight: 200;
 }
 
-.card-all {
+/* .card-all {
 
-}
+} */
 
 .card-intro {
     text-align: center;
@@ -68,17 +64,17 @@ main {
     margin: 20px;
 }
 
-.card h3 {
+.card-main h3 {
     font-size: 16px;
     font-weight: 600;
 }
 
-.card p {
+.card-main p {
     font-size: 12px;
     font-weight: 200;
 }
 
-.card img {
+.card-main img {
     width: 40px;
     height: 40px;
 }
