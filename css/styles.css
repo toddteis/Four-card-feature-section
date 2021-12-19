@@ -36,7 +36,7 @@ h2 {
 main {
     display: grid;
     grid-template-columns: auto 310px auto;
-    grid-template-rows: 220px 220px 220px 220px 220px;
+    grid-template-rows: repeat(5, 220px);
     grid-template-areas:
       "sdl hd sdr"
       "sdl bd sdr"
@@ -114,4 +114,54 @@ main {
 
 .attribution a {
     color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (min-width: 1023px) {
+    main {
+        display: grid;
+        grid-template-columns: auto 310px 310px 310px auto;
+        grid-template-rows: repeat(3, 220px);
+        grid-template-areas:
+          "sdl hd hd hd sdr"
+          "sdl bdl bd bdr sdr"
+          "sdl bdl bd bdr sdr";
+        height: 100vh;
+        margin-bottom: 0;
+    }
+
+    .supervisor {
+        grid-area: bdl;
+        grid-row: 2/5;
+        margin-top: 130px;
+    }
+
+    .team-builder {
+        grid-area: bd;
+        grid-row: 2/3;
+    }
+    
+    .karma {
+        grid-area: bd;
+        grid-row: 3/4;
+    }
+    
+    .calculator {
+        grid-area: bdr;
+        grid-row: 2/5;
+        margin-top: 130px;
+    }
+    
+    .card-header {
+        justify-self:center;
+        text-align: center;
+        width: 380px;
+        height: 220px;
+        grid-area: hd;
+    }
+
+    .attribution { 
+        position: fixed;
+        bottom:0;
+        left:0;
+    }
 }
