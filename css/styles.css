@@ -14,7 +14,7 @@
     --blue: #549ef2;
     --very-dark-blue: #4c4e61;
     --grayish-blue: #a3a5ae;
-    --vary-light-gray: #fafafa;
+    --very-light-gray: #fafafa;
 }
 
 html {
@@ -59,21 +59,25 @@ main {
 .supervisor {
     grid-area: bd;
     grid-row: 2/3;
+    border-top: 4px solid var(--cyan);
 }
 
 .team-builder {
     grid-area: bd;
     grid-row: 3/4;
+    border-top: 4px solid var(--red);
 }
 
 .karma {
     grid-area: bd;
     grid-row: 4/5;
+    border-top: 4px solid var(--orange);
 }
 
 .calculator {
     grid-area: bd;
     grid-row: 5/6;
+    border-top: 4px solid var(--blue);
 }
 
 .card-header {
@@ -91,7 +95,6 @@ main {
     height: 220px;
     padding: 30px;
     padding-bottom: 34px;
-    border-top: 1px solid black;
     border-radius: 4px;
     box-shadow: 2px 3px 20px 6px rgb(163, 165, 174, 0.2);
     display: flex;
@@ -143,6 +146,7 @@ main {
           "sdl bdl bd bdr sdr";
         height: 100vh;
         margin-bottom: 0;
+        gap: 30px;
     }
 
     .supervisor {
