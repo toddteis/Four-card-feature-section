@@ -169,10 +169,16 @@ main {
     
     .card-header {
         justify-self:center;
-        text-align: center;
-        width: 380px;
-        height: 220px;
+        width: 500px;
         grid-area: hd;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+    
+    h2 {
+        font-size: 36px;
     }
 
     .attribution { 
